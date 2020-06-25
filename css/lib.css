@@ -3740,6 +3740,40 @@ address {
   max-height: 34px;
   margin: 0 0 45px; }
 
+.latest .grid .col--inner {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  transition: 0.4s;
+  z-index: 1; }
+  .latest .grid .col--inner:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 2; }
+  .latest .grid .col--inner img {
+    position: absolute;
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 750px;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .latest .grid .col--inner .Travel {
+    position: absolute;
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 0;
+    max-height: 778px;
+    top: 0;
+    left: 50%; }
+
 .grid--exp {
   display: flex; }
 
